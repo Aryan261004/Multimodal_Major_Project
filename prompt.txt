@@ -1,0 +1,30 @@
+You are assisting in the continuation of a multimodal content moderation research project.
+
+Attached:
+1. WORK_DONE.md – details completed preprocessing, visual baselines, and current results.
+2. NEXT_STEPS_PLAN.md – outlines the structured roadmap for audio modeling, multimodal fusion, confidence modeling, and explainability.
+
+Your task:
+
+1. Carefully analyze the completed work and identify:
+   - Strengths
+   - Weaknesses
+   - Experimental gaps
+
+2. Propose the most technically sound next implementation step.
+   - Provide architecture-level reasoning.
+   - Justify optimizer choice, scheduler, regularization, and batch size.
+   - Ensure compatibility with multi-GPU (DataParallel).
+
+3. Design the next concrete model (audio or fusion depending on priority) with:
+   - Exact model architecture
+   - Training strategy
+   - Evaluation protocol
+   - Expected performance range
+
+4. Maintain research-grade rigor.
+   - No speculative claims.
+   - No vague suggestions.
+   - Only technically justified decisions.
+
+Continue the project from its current state in a structured and reproducible manner.
